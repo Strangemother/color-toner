@@ -1,0 +1,73 @@
+body {
+font-family: 'TerminalDosisLight', Arial, sans-serif;
+background-color: #F5F5F5;
+}
+
+ul li.color {
+    width: 100px;
+    height: 100px;
+    float: left;
+    list-style: none;
+    outline: solid 2px rgba(170, 170, 170, 0.15);
+    margin: 30px 10px;
+    line-height: 50px;
+    color: rgba(255, 255, 255, .5);
+    text-align: center;
+    outline-offset: 2px;
+    box-shadow: 0 2px 0px 0px #FFF;
+}
+
+ul.colors ul {
+clear: both;
+}
+
+li.title {
+    list-style: none;
+    font-size: 32px;
+    color: #969696;
+    clear: both;
+    text-shadow: 0 1px 1px #FFF;
+}
+
+#picker {
+    position: fixed;
+    top: 90px;
+    right: 50px;
+    border: solid 1px;
+    padding: 0;
+    background-color: #FFF;
+    border-color: #EEE;
+    box-shadow: 0 1px 1px #C7C7C7;
+}
+
+#picker .selector {
+    text-align: center;
+    margin: 35px;
+}
+
+#selectedColor {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border: none;
+    font-size: 25px;
+    line-height: 36px;
+    height: 50px;
+    text-align: center;
+    font-family: 'TerminalDosisMedium';
+    letter-spacing: 2px;
+    color: #666;
+    text-transform: uppercase;
+}
+
+#selectedColor:focus {
+    outline: none;
+}
+
+.main.container>p {
+font-size: 18px;
+max-width: 1024px;
+margin: 10px auto 20px auto;
+font-family: 'TerminalDosisRegular';
+line-height: 23px;
+}
